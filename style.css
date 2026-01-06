@@ -2,7 +2,6 @@ body {
 margin: 0;
 }
 
-/* 글씨를 화면 가운데에 위치 */
 .background-blur {
 font-size: 30px;
 display: flex;
@@ -11,7 +10,6 @@ justify-content: center;
 align-items: center;
 }
 
-/* background-image blur */
 .background-blur::before {
 content: "";
 position: absolute;
@@ -22,9 +20,7 @@ height: 600px;
 z-index: -1;
 background-image : url("./Baekseok_University.jpeg");
 background-repeat: no-repeat;
-/* background-size: contain  ; */
 background-size: cover;
-  /* opacity */
 opacity: 0.5;
 }
 
