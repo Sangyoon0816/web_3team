@@ -6,7 +6,7 @@
     <title>로그인 페이지</title>
     <link rel="stylesheet" href="3team_login.css">
 </head>
-
+    
 <body>
 <form action="3team_login_save.php" method="post">
     <fieldset>
@@ -15,7 +15,7 @@
         <!-- 위쪽 로그인 / 회원가입 버튼 -->
         <div class="top-buttons">
             <a href="3team_login.php" class="btn-primary">로그인</a>
-            <a href="3team_login_process.php" class="btn-primary">회원가입</a>
+            <a href="3team_login_process.html" class="btn-primary">회원가입</a>
         </div>
 
         <div style="text-align:left; margin-top:40px;">
