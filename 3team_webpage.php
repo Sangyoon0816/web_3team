@@ -9,8 +9,8 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- sttle.css랑 연결되어 있음 -->
     <link rel="stylesheet" href="3team_webpage.css" />
-    <title>홉피 만든는 중</title>
-
+    <link rel="stylesheet" href="style.css" />
+    <title>홈페이지</title>
 
 </head>
 
