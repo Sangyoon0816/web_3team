@@ -1,6 +1,6 @@
 <?php
-    $dbcon = mysqli_connect('localhost', 'root', '');
-    mysqli_select_db($dbcon, 'web_3team');
+    $dbcon = mysqli_connect('localhost', 'buphs', 'phs010331@', 'buphs');
+    // mysqli_select_db($dbcon, 'web_3team');
     $query = "select * from basket";
     $result = mysqli_query($dbcon, $query);
 ?>

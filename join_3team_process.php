@@ -22,9 +22,9 @@
     //echo $hased_password; 
 
     // 데이터베이스 연결
-    $dbcon = mysqli_connect('localhost', 'root', '');
+    $dbcon = mysqli_connect('localhost', 'buphs', 'phs010331@', 'buphs');
     // 데이터베이스 선택 
-    mysqli_select_db($dbcon, 'web_3team');
+    // mysqli_select_db($dbcon, 'web_3team');
     // 쿼리 준비 -> 전송
     $query = "insert into student values('$UNAME', '$UID', '$EMAIL', '$CALL','$hased_password')";
     //echo $query;
